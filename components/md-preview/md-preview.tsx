@@ -6,7 +6,7 @@ const MDPreview = () => {
 	const { md } = useMDTextStore();
 
 	return (
-		<div className="h-full w-full overflow-y-scroll p-3 border-2 border-primary-dark bg-primary-light rounded-lg">
+		<div className="flex-grow w-full overflow-y-scroll p-3 border-2 border-primary-dark bg-primary-light rounded-lg">
 			<ReactMarkdown
 				remarkPlugins={[remarkGfm]}
 				className="prose prose-img:block leading-tight"
